@@ -802,13 +802,18 @@
                             }
                             .References-text-DIV-S-L{
                                 height: 100%;
-                                width: 50%;
+                                width: 47%;
                                 display: flex;
                                 align-items: center;
                             }
                             .References-TEXT{
                                 margin: 0;
                                 font-family: 'Roboto Slab', serif;
+                            }
+                            .References-TEXT-SS{
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
                             }
                             .References-text-DIV-M-LINE {
                                 width: 100%;
